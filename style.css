@@ -4,9 +4,12 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body {
-  background-color: darkcyan;
-  color: #333;
+
+.wrapper {
+  width: 100%;
+  background-image: url(./images/mountain.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
 }
 
 .navbar {
@@ -54,3 +57,87 @@ body {
   letter-spacing: 0px;
   color: #ffffff;
 }
+
+/* hero */
+.hero {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 114px 80px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-text p {
+  writing-mode: vertical-rl;
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.guide-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  /* margin-bottom: 32px; */
+}
+
+.guide-container .line {
+  width: 72px;
+  height: 2px;
+  background: rgb(251, 215, 132);
+}
+
+.guide-container h2 {
+  font-family: Gilroy;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #fbd784;
+}
+
+.hero-title > h1 {
+  font-family: Chronicle Display;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 100px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.hero-title span {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.hero-text2 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 10px 15px;
+  color: #ffffff;
+  border-right: 2px solid #ffffff;
+}
+
+.hero-text2 p {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #ffffff;
+}
+/* hero */
